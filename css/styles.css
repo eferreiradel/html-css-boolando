@@ -10,6 +10,10 @@
  body {
     margin: 0;
  }
+ .flex {
+    display: flex;
+    flex-direction: row;
+ }
 /* navBar*/
 #navBar {
     display: flex;
@@ -81,6 +85,28 @@ main {
     opacity: 0;
 }
 
+.box {
+    padding: 0 0.3em ;
+    margin-right: 0.5em;
+  
+    color: white;
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+.box--container {
+    position: absolute;
+    z-index: +2;
+    bottom: +50px;
+}
+.red {
+    color: white;
+    background-color: red;
+}
+.green {
+    color: white;
+    background-color: green;
+}
 
 
 
