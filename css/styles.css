@@ -2,7 +2,6 @@
     --brand__color--orange: #FF6900;
     font-size: 20px;
 }
-
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
@@ -11,8 +10,6 @@
  body {
     margin: 0;
  }
-
-
 /* navBar*/
 #navBar {
     display: flex;
@@ -44,36 +41,44 @@ a , i {
     display:block;
     height: 2em;
 }
-
 main {
-    background-color: rgb(183, 120, 120);
     margin: auto;
     padding: 1em;
-    /* width: 90%; */
     max-width: 1920px;
 }
-
 #grid--container {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .card {
-    background-color: antiquewhite;
+    width: 550px;
     display: flex;
     flex-direction: column;
 }
 .card--photo {
+    position: relative;
     flex-grow: 20;
 }
 .card--photo img {
     height: 100%;
-    width:100%;
+    width: 100%;
     object-fit: cover;
     display: block;
 }
+.top--img {
+    z-index: +1;
+    position: absolute;
+    transition: 0.5s;
+    top: 0;
+    left: 0;
+}
 .card--footer {
     flex-grow: 1;
-
+}
+.top--img:hover {
+    opacity: 0;
 }
 
 
@@ -97,4 +102,10 @@ main {
 .price--lineTh {
     text-decoration: line-through;
 }
+span {
+    font-size: smaller;
+    font-weight: lighter;
+    color: black;
+    display: inline;
 
+}
