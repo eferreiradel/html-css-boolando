@@ -12,6 +12,9 @@ body {
     margin: 0;
 }
 
+img {
+    display: block;
+}
 
 /* font */
 * {
@@ -31,12 +34,20 @@ body {
 
 
 
+
+
 /* itemDesc */
+
+.itemDesc {
+}
 .brand {
+    margin-bottom:0;
     text-align: left;
     font-size: small;
 }
 .itemName {
+    margin: 0;
+    text-transform: uppercase;
     font-weight: bolder;
 }
 .priceComp {
@@ -44,11 +55,15 @@ body {
     flex-direction: row;
 }
 .priceTag {
-    color: var(--brand__color--orange);
+    margin:0;
+    color: #FF0000;
 }
-.priceLine {
+.priceBef {
+    margin:0 1em;
     text-decoration: line-through;
 }
+
+
 
 
 
@@ -98,25 +113,38 @@ body {
     margin: 1em 0.3em;
 }
 
-#main {
-    padding: 3.5 em 0;
+
+
+
+
+main {
+    padding: 3.5em;
 }
 
+
+
+
+
+/* main--grid */
 #main--grid {
     width: 90%;
     max-width: 1610px;
 }
 .main__grid--card {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     width: 90%;
-    height:822px;
+    max-height:754px;
     max-width: 523px;
 }
-#card1 {
-    background-image: url(../);
+
+.cardPhoto {
+    max-height: 754px;
+    background-color:#FF6900;
 }
+
+.main__grid--card img {
+    width:100%
+}
+
 
 
 
