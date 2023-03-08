@@ -10,20 +10,14 @@
 </head>
 <body>
     <header>
-        <div id="navBar" class="flexRow">
+        <div id="navBar">
             <nav>
-                <a href="index.html" class="navBar--content">
-                    Donna
-                </a>
-                <a href="index.html" class="navBar--content">
-                    Uomo
-                </a>
-                <a href="index.html" class="navBar--content">
-                    Bambini
-                </a>
+                <a href="index.html">Donna</a>
+                <a href="index.html">Uomo</a>
+                <a href="index.html">Bambino</a>
             </nav>
-            <div id="navBar--logo" class="flexRow">
-                <img src="./img/boolean-logo.png" alt="boolean-logo">
+            <div class="logo">
+                <img src="./img/boolean-logo.png" alt="logo">
             </div>
             <nav>
                 <i class="fa-sharp fa-solid fa-user"></i>
@@ -32,72 +26,21 @@
             </nav>
         </div>
     </header>
-    <!-- MAIN -->
     <main>
-        <section id="main--grid" class="flexRow">
-
-
-            <div id="card1" class="main__grid--card" class="flexCol">
-                <div class="cardPhoto">
-                    <img src="./img/1.webp">
+        <div id="grid--container">
+            <div class="card">
+                <div class="card--photo">
+                    <img src="./img/1.webp" alt="Levis">
                 </div>
-                <div class="itemDesc">
-                    <p class="brand">
-                        Levis
-                    </p>
-                    <p class="itemName">
-                        Relaxed fit unisex
-                    </p>
-                    <div class="priceComp">
-                        <p class="priceTag">14,99$</p>
-                        <p class="priceBef">29,99$</p>
-                    </div>
+                <div class="card--footer">
+                    <p class="item--brand">Levis</p>
+                    <p class="item--name">Relaxed fit Tee Unisex</p>
+                    <p class="price--tag">14,99$</p>
                 </div>
-                <div class="flexRow boxOffer--container">
-                    <div class="boxOffer--red">
-                        <p>-50%</p>
-                    </div>
-                    <div class="boxOffer--green">
-                        <p>Sostenibilità</p>
-                    </div>
-                </div>
-                <!-- <div class="heart">
-                    <i class="fa-sharp fa-solid fa-heart"></i>
-                </div> -->
             </div>
-            
-
-            <div id="card1" class="main__grid--card" class="flexCol">
-                <div class="cardPhoto">
-                    <img src="./img/2.webp">
-                </div>
-                <div class="itemDesc">
-                    <p class="brand">
-                        Levis
-                    </p>
-                    <p class="itemName">
-                        Roses tee
-                    </p>
-                    <div class="priceComp">
-                        <p class="priceTag">200,99$</p>
-                        <p class="priceBef">29,99$</p>
-                    </div>
-                </div>
-                <div class="flexRow boxOffer--container">
-                    <div class="boxOffer--red">
-                        <p>-50%</p>
-                    </div>
-                    <div class="boxOffer--green">
-                        <p>Sostenibilità</p>
-                    </div>
-                </div>
-                <!-- <div class="heart">
-                    <i class="fa-sharp fa-solid fa-heart"></i>
-                </div> -->
-            </div>
-
-            
-        </section>
+        </div>
+    </main>
+    <main>
     </main>
 </body>
 </html>
