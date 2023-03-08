@@ -1,4 +1,4 @@
-:html {
+::root {
     font-size: 20px;
     --brand__color--orange: #FF6900;
 }
@@ -7,7 +7,10 @@
     box-sizing: border-box;
 }
 
-
+body {
+    padding: 0;
+    margin: 0;
+}
 
 
 /* font */
@@ -64,11 +67,56 @@
 
 
 /* navBar */
+
 #navBar {
-    background-color:var(--brand__color--orange);
+    /* background-color:var(--brand__color--orange); */
+    box-shadow: rgba(60, 64, 67, 0.117) 0px 3px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF6900;
+    padding: 1em 0;
+    width: 100%;
+    max-width: 1920
 }
-.navBar__content {
-    margin: 1em auto;
+#navBar img {
+    background-color: ;
+    height: 2em;
 }
+
+#navBar  i {
+    font-size: smaller;
+    margin: 0.3em;
+    color: whitesmoke;
+}
+
+.navBar--content {
+    font-size: small;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    margin: 1em 0.3em;
+}
+
+#main {
+    padding: 3.5 em 0;
+}
+
+#main--grid {
+    width: 90%;
+    max-width: 1610px;
+}
+.main__grid--card {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90%;
+    height:822px;
+    max-width: 523px;
+}
+#card1 {
+    background-image: url(../);
+}
+
 
 
