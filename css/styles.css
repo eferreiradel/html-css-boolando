@@ -8,6 +8,7 @@
 }
 
 body {
+    background-color: whitesmoke;
     padding: 0;
     margin: 0;
 }
@@ -42,6 +43,7 @@ img {
 }
 .boxOffer--green {
     background-color: green;
+    margin-right: 1em;
     padding:0 0.5em ;
     line-height: 1px;
     font-size: small;
@@ -108,7 +110,7 @@ img {
 
 /* main */
 main {
-    padding: 3em 6em;
+    background-color: whitesmoke;
 }
 
 
@@ -118,7 +120,9 @@ main {
 
 /* main--grid */
 #main--grid {
-    width: 90%;
+    gap: 1em;
+    margin: 3em auto;
+    width: 100%;
     max-width: 1610px;
 }
 
@@ -172,4 +176,16 @@ main {
     margin:0 1em;
     text-decoration: line-through;
 }
+
+/* .heart {
+    position: relative;
+    top: -500px;
+    right: -400px;
+    padding: 0.3em;
+    font-size: x-large;
+    display: inline-block;
+    right: 100%px;
+    background-color: whitesmoke;
+
+} */
 
