@@ -16,6 +16,9 @@
  }
 /* navBar*/
 #navBar {
+    width:100%;
+    position: fixed;
+    z-index: +3;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -46,7 +49,7 @@ a , i {
     height: 2em;
 }
 main {
-    margin: auto;
+    margin: em auto;
     padding: 1em;
     max-width: 1920px;
 }
@@ -57,6 +60,7 @@ main {
 }
 
 .card {
+    margin-bottom: 1em;
     width: 550px;
     display: flex;
     flex-direction: column;
