@@ -18,6 +18,7 @@
 #navBar {
     width:100%;
     position: fixed;
+    top: 0;
     z-index: +3;
     display: flex;
     flex-wrap: wrap;
@@ -49,8 +50,7 @@ a , i {
     height: 2em;
 }
 main {
-    margin: em auto;
-    padding: 1em;
+    margin-top: 6Em;
     max-width: 1920px;
 }
 #grid--container {
